@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.accordion-button::after{
+  filter: invert(1);
+}
 
 .App-logo {
   height: 40vmin;
